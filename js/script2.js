@@ -2,7 +2,8 @@
 
 function add (x) {
     return function (y) {
-        return x + y;
+        let result = x + y;
+        return result;
     };
 }
 
