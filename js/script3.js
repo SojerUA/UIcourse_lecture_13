@@ -4,7 +4,7 @@ function User(firstName,lastName) {
     this.firstName = firstName,
     this.lastName = lastName,
     this.sayHello = function () {
-        alert('Hello, my firstName is' + ' ' + firstName + ' ' + 'lastName is' + ' ' + lastName + '. I am very exited to learn JavaScript!');
+        alert('Hello, my firstName is' + ' ' + this.firstName + ' ' + 'lastName is' + ' ' + this.lastName + '. I am very exited to learn JavaScript!');
     };
 }
 
